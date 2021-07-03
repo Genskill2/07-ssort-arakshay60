@@ -7,7 +7,7 @@ void swap_max(int arr[],int l,int n) {
     for(int i=n;i<l-1;i++) {
     	//printf("i= %i\n", i);
         if(arr[index_largest]<arr[i+1]) {
-            index_largest = (i+1);
+            index_largest = (i+);
         }        
     }
     //printf("Index final: %i\n", index_largest);
